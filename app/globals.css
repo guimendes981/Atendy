@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.brand-glow {
-  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.25), 0 10px 30px rgba(37, 211, 102, 0.25);
-}
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { @apply bg-white text-slate-900; }
+
+.glass { @apply bg-white/10 backdrop-blur border border-white/20; }
+.badge { @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-semibold; }
+.section { @apply py-20 md:py-28; }
+.card { @apply rounded-2xl border bg-white p-6 shadow-soft; }
