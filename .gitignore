@@ -13,9 +13,6 @@
 
 # production
 /build
-.env
-.env.example
-.env.*
 
 # misc
 .DS_Store
@@ -31,6 +28,8 @@ pnpm-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env.example
+
 
 # vercel
 .vercel
