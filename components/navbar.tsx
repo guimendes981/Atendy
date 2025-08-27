@@ -24,7 +24,7 @@ export default function Navbar() {
             <a href="#faq" className="hover:text-slate-900">Dúvidas</a>
           </nav>
           <Link href={whatsLink("Oi! Quero automatizar meu WhatsApp com o Atendy.")}
-            className="hidden sm:inline-flex rounded-xl bg-brand.blue text-white px-4 py-2 font-semibold shadow-brand hover:opacity-90">
+            className="hidden sm:inline-flex rounded-xl bg-brand.blue px-4 py-2 font-semibold shadow-brand transition-colors duration-200 hover:bg-white hover:text-slate-900 hover:border hover:border-brand-blue hover:shadow-lg">
             Falar no WhatsApp
           </Link>
         </div>
